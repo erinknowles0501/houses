@@ -1,0 +1,17 @@
+{
+    "name": "caskie-houses",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "serve": "live-server --no-browser --port=7010",
+        "tunnel": "lt --port=7010 --subdomain=caskiehouses"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "aframe": "^1.3.0",
+        "live-server": "^1.2.2"
+    }
+}
